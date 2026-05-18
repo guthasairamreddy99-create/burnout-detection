@@ -30,7 +30,7 @@ This project predicts employee burnout risk using machine learning based on work
    streamlit run app.py
 
 ## 🌐 Live App
-https://burnout-detection-oh2rggx7rvzuxgiewpmssf.streamlit.app/
+https://burnout-detection-pkb86nguq3t4mb9huczchr.streamlit.app/
 
 ## 👨‍💻 Author
 - Gutha SaiRam Reddy
