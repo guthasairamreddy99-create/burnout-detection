@@ -28,7 +28,7 @@ This project predicts employee burnout risk using machine learning based on work
    streamlit run app.py
 
 ## 🌐 Live App
-(Add your Streamlit link here)
+https://burnout-detection-oh2rggx7rvzuxgiewpmssf.streamlit.app/
 
 ## 👨‍💻 Author
 - Your Name
