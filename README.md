@@ -36,5 +36,5 @@ https://burnout-detection-pkb86nguq3t4mb9huczchr.streamlit.app/
 
 ## 📸 App Preview
 
-![App Screenshot](Screenshot 2026-05-19 001200.png)
+![App Screenshot](app.png)
 
