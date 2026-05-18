@@ -8,8 +8,8 @@ model = pickle.load(open("model.pkl", "rb"))
 st.title("Employee Burnout Risk Detection")
 
 # Inputs
-working_hours = st.number_input("Working Hours", 1.0, 15.0, 8.0)
-task_count = st.number_input("Task Count", 1.0, 30.0, 10.0)
+working_intensity = st.number_input("Working Hours", 1.0, 15.0, 8.0)
+tasks = st.number_input("Task Count", 1.0, 30.0, 10.0)
 breaks = st.number_input("Break Time", 0.0, 120.0, 30.0)
 weekend = st.selectbox("Weekend Work", [0, 1])
 emails_activity = st.number_input("Email Activity", 0.0, 500.0, 100.0)
