@@ -31,4 +31,4 @@ This project predicts employee burnout risk using machine learning based on work
 https://burnout-detection-oh2rggx7rvzuxgiewpmssf.streamlit.app/
 
 ## 👨‍💻 Author
-- Your Name
+- Gutha SaiRam Reddy
