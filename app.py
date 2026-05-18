@@ -18,12 +18,12 @@ sleep_hours = st.number_input("Sleep Hours", 1.0, 12.0, 7.0)
 if st.button("Predict"):
 
     # Feature engineering
-    workload_intensity = tasks / hours if hours != 0 else 0
+    workload_intensity = tasks / working_intensity if working_intensity != 0 else 0
     overwork_index = hours * (1 + weekend)
     recovery_ratio = break_time / hours if hours != 0 else 0
-    productivity_pressure = emails / tasks if tasks != 0 else 0
+    productivity_pressure = emails_activity / tasks if tasks != 0 else 0
 
-    input_data = np.array([[working_hours, tasks, break_time, weekend, emails, sleep_hours,
+    input_data = np.array([[working_intensity, tasks, breaks, weekend, emails_activity, sleep_hours,
                             workload_intensity, overwork_index,
                             recovery_ratio, productivity_pressure]])
 
