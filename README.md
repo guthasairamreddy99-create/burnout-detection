@@ -1,5 +1,4 @@
-🚀 **Live Demo:** https://your-app-link.streamlit.app
-
+🚀 **Live Demo:** https://burnout-detection-pkb86nguq3t4mb9huczchr.streamlit.app/
 # 🔥 Employee Burnout Risk Detection
 
 ## 📌 Overview
